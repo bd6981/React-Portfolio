@@ -34,8 +34,8 @@ body{
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../triangles.png);
-    background-size: cover;
+    background-image: url(../texture.png);
+    background-size: contain;
     background-position: no-repeat;
 }
 /*---------------------------Gen Style-------------------------------------*/
