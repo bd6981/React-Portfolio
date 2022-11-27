@@ -2,40 +2,53 @@ import React from 'react'
 import "./About.css"
 import me from "../Header/me.png"
 import {FaAward} from 'react-icons/fa'
+import {FiUsers} from 'react-icons/fi'
+import {VscFolderLibrary} from 'react-icons/vsc'
 
 const About = () => {
   return (
     <section id='about'>
       <h5>Get To Know</h5>
       <h2>About Me</h2>
-      <div className="container about_container">
-        <div className="about_me">
-          <div className="about_me-image">
-            <img src={me} alt="me" />
+
+      <div className="container about__container">
+        <div className="about__me">
+          <div className="about__me-image">
+            <img src={me} alt="About Image" />
           </div>
         </div>
-          <div className='about_content'></div>
-          <div className="about_cards">
-            <article className='about_card'>
-              <FaAward className='about_icon'/>
-              <h5>Experiance</h5>
-              <small>General Assembly</small>
+
+        <div className="about__content">
+          <div className="about__cards">
+            <article className='about__card'>
+              <FaAward className='about__icon'/>
+              <h5>Experience</h5>
+              <small>General Assembly: Software Engineering</small>
             </article>
-            <article className='about_card'>
-              <FaAward className='about_icon'/>
-              <h5>Experiance</h5>
-              <small>General Assembly</small>
+
+            <article className='about__card'>
+              <FiUsers className='about__icon'/>
+              <h5>Hours</h5>
+              <small>500 plus hours Full-Stack Dev</small>
             </article>
-            <article className='about_card'>
-              <FaAward className='about_icon'/>
-              <h5>Experiance</h5>
-              <small>General Assembly</small>
+
+            <article className='about__card'>
+              <VscFolderLibrary className='about__icon'/>
+              <h5>Language</h5>
+              <small>Javascript, </small>
+              <small>React, Node, </small>
+              <small>CSS, HTML, MongoDB </small>
             </article>
           </div>
-        
-      </div>
 
-    </section>    
+          <p>
+            Hi! I attended the Fully-Immersive Software Engineering Boot-camp through General Assembly. This boot-camp taught me languages such as, Vanilla Javascript, React, Node, MongoDB, Python. I also gain essential skills like, learning the core skills to build Full-Stack web apps, computer science fundementals, callaboration tools, working with third-part API's, utilizing Postman, version control with Git and GitHub, and much more! Through this award winning program I have learned, implemented, and successfully completed web applications in various languages, that I am proud of! 
+          </p>
+
+          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+        </div>
+      </div>
+    </section>
   )
 }
 
