@@ -4,18 +4,18 @@ import IMG1 from '../../assets/to-do.png'
 import IMG2 from '../../assets/Trivia.png'
 import IMG3 from '../../assets/dog.png'
 import IMG4 from '../../assets/invention.png'
-import IMG5 from '../../assets/ComingSoon.png'
+import IMG5 from '../../assets/Mern.png'
 import IMG6 from '../../assets/ComingSoon.png'
 
 // DO NOT USE THE IMAGES IN PRODUCTION
 
 const data = [
   {
-    id: 1,
-    image: IMG1,
-    title: 'To-do list | React',
-    github: 'https://github.com/bd6981/toDoReact.git',
-    demo: 'https://to-do-react-chi.vercel.app'
+    id: 5,
+    image: IMG5,
+    title: 'The Connections Keeper | Full MERN | User Auth',
+    github: 'https://github.com/shamzaali7/connection-frontend-api.git',
+    demo: 'connection-frontend-api.vercel.app'
   },
   {
     id: 2,
@@ -39,11 +39,11 @@ const data = [
     demo: 'https://invention-mu.vercel.app/Home'
   },
   {
-    id: 5,
-    image: IMG5,
-    title: 'Coming Soon - Feel free to Check out my Github in the mean time',
-    github: 'https://github.com/bd6981',
-    demo: ''
+    id: 1,
+    image: IMG1,
+    title: 'To-do list | React',
+    github: 'https://github.com/bd6981/toDoReact.git',
+    demo: 'https://to-do-react-chi.vercel.app'
   },
   {
     id: 6,

@@ -31,6 +31,8 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+    align-items: center;
+    text-align: center;
   }
   
   /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
