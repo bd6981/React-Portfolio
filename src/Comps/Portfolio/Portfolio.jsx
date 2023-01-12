@@ -7,7 +7,7 @@ import IMG4 from '../../assets/invention.png'
 import IMG5 from '../../assets/Mern.png'
 import IMG6 from '../../assets/ComingSoon.png'
 
-// DO NOT USE THE IMAGES IN PRODUCTION
+
 
 const data = [
   {
@@ -58,7 +58,7 @@ const data = [
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>My Recent Work</h5>
+      <h5>My Recent Work:</h5>
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">

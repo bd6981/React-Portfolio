@@ -17,7 +17,7 @@ const Contact = () => {
 
   return (
     <section id='contact'>
-      <h5>Get In Touch</h5>
+      <h5>Get In Touch:</h5>
       <h2>Contact Me</h2>
 
       <div className="container contact__container">
@@ -29,7 +29,7 @@ const Contact = () => {
             <a href="mailto:dBrittanyjdavis22@gmail.com" target="_blank">Send a message</a>
           </article>
         </div>
-        {/* END OF CONTACT OPTIONS */}
+    
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name='email' placeholder='Your Email' required />
