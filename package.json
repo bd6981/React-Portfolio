@@ -36,5 +36,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@iconify/icons-logos": "^1.2.23",
+    "@iconify/icons-vscode-icons": "^1.2.20",
+    "@iconify/react": "^4.0.1"
   }
 }
