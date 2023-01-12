@@ -13,10 +13,10 @@ const Header = () => {
         <h5 className='text-light'>Junior Fullstack Developer</h5>
         <CTA/>
         <HeaderSocial/>
-        <div className="me">
-          <img src={me} alt="me"/>
+        {/* <div className="me">
+          {/* <img src={me} alt="me"/> */}
 
-        </div>
+        {/* </div>  */}
         <a href="#contact" className='scroll__down' >Scroll Down</a>
       </div>
     </header>
