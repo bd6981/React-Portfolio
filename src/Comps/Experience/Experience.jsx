@@ -12,6 +12,7 @@ import mongodbIcon from "@iconify/icons-logos/mongodb-icon";
 import fileTypeMysql from "@iconify/icons-vscode-icons/file-type-mysql";
 import pythonIcon from "@iconify/icons-logos/python";
 import fileTypeDjango from "@iconify/icons-vscode-icons/file-type-django";
+import mochaIcon from "@iconify/icons-logos/mocha";
 
 const Experience = () => {
   return (
@@ -101,6 +102,16 @@ const Experience = () => {
               />
               <div>
                 <h4>Django</h4>
+                <small className="text-light"></small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <Icon
+                icon={mochaIcon}
+                className="experience__details-icon"
+              />
+              <div>
+                <h4>Mocha</h4>
                 <small className="text-light"></small>
               </div>
             </article>
