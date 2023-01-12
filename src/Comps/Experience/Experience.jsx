@@ -7,6 +7,11 @@ import javascriptIcon from "@iconify/icons-logos/javascript";
 import fileTypeCss from "@iconify/icons-vscode-icons/file-type-css";
 import bootstrapIcon from "@iconify/icons-logos/bootstrap";
 import reactIcon from "@iconify/icons-logos/react";
+import fileTypeNode from "@iconify/icons-vscode-icons/file-type-node";
+import mongodbIcon from "@iconify/icons-logos/mongodb-icon";
+import fileTypeMysql from "@iconify/icons-vscode-icons/file-type-mysql";
+import pythonIcon from "@iconify/icons-logos/python";
+import fileTypeDjango from "@iconify/icons-vscode-icons/file-type-django";
 
 const Experience = () => {
   return (
@@ -24,7 +29,6 @@ const Experience = () => {
               </div>
             </article>
             <article className="experience__details">
-              
               <Icon icon={fileTypeCss} className="experience__details-icon" />
               <div>
                 <h4>CSS</h4>
@@ -63,35 +67,38 @@ const Experience = () => {
           <h3>Backend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <Icon icon={fileTypeNode} className="experience__details-icon" />
               <div>
                 <h4>Node JS</h4>
                 <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <Icon icon={mongodbIcon} className="experience__details-icon" />
               <div>
                 <h4>MongoDB</h4>
                 <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <Icon icon={fileTypeMysql} className="experience__details-icon" />
               <div>
                 <h4>MySQL</h4>
                 <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <Icon icon={pythonIcon} className="experience__details-icon" />
               <div>
                 <h4>Python</h4>
                 <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <Icon
+                icon={fileTypeDjango}
+                className="experience__details-icon"
+              />
               <div>
                 <h4>Django</h4>
                 <small className="text-light"></small>
