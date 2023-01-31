@@ -42,7 +42,7 @@ const About = () => {
           </div>
 
           <p>
-            Hi! I attended the Fully-Immersive Software Engineering Boot-camp through General Assembly. This boot-camp taught me languages such as, Vanilla Javascript, React, Node, MongoDB, Python. I also gain essential skills like, learning the core skills to build Full-Stack web apps, computer science fundamentals, collaboration tools, working with third-part API's, utilizing Postman, version control with Git and GitHub, and much more! Through this award winning program I have learned, implemented, and successfully completed web applications in various languages, that I am proud of! 
+            Hi! I attended the Fully-Immersive Software Engineering Boot-camp through General Assembly. This boot-camp taught me languages such as, Vanilla Javascript, React, Node, MongoDB, Python. I also gained essential skills like, learning the core skills to build Full-Stack web apps, computer science fundamentals, collaboration tools, working with third-party API's, utilizing Postman, version control with Git and GitHub, and much more! Through this award winning program I have learned, implemented, and successfully completed web applications in various languages, that I am proud of! 
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
