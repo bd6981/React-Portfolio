@@ -11,6 +11,13 @@ import IMG6 from '../../assets/siby.png'
 
 const data = [
   {
+    id: 6,
+    image: IMG6,
+    title: "Siby- Crime Mapping | React",
+    github: "https://github.com/bd6981",
+    demo: "https://siby-crime-mapping.vercel.app/",
+  },
+  {
     id: 5,
     image: IMG5,
     title: "The Connections Keeper | Full MERN | User Auth",
@@ -44,13 +51,6 @@ const data = [
     title: "To-do list | React",
     github: "https://github.com/bd6981/toDoReact.git",
     demo: "https://to-do-react-chi.vercel.app",
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: "Siby- Crime Mapping | React",
-    github: "https://github.com/bd6981",
-    demo: "https://siby-crime-mapping.vercel.app/",
   },
 ];
 
