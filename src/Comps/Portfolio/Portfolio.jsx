@@ -22,7 +22,7 @@ const data = [
     image: IMG5,
     title: "The Connections Keeper | Full MERN | User Auth",
     github: "https://github.com/shamzaali7/connection-frontend-api.git",
-    demo: "connection-frontend-api.vercel.app",
+    demo: "http://connection-frontend-api.vercel.app/",
   },
   {
     id: 2,
