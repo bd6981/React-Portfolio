@@ -31,9 +31,10 @@ header {
   
   .header__socials::after {
     content: "";
-    width: 1px;
+    width: 3px;
     height: 2rem;
     background: var(--color-primary);
+    
   }
   
   /* =============== ME ============== */
@@ -57,8 +58,14 @@ header {
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 300;
-    font-size: 0.9rem;
-  }
+    font-size: 1.0rem;
+
+  animation-duration: 0.5s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+  animation-iteration-count: infinite;
+  
+}
   
   /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
   @media screen and (max-width: 1024px) {
