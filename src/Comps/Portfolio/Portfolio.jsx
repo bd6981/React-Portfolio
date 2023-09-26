@@ -1,6 +1,6 @@
 import React from 'react'
 import './Portfolio.css'
-import IMG1 from '../../assets/to-do.png'
+import IMG1 from '../../assets/pacman.png'
 import IMG2 from '../../assets/Trivia.png'
 import IMG3 from '../../assets/dog.png'
 import IMG4 from '../../assets/invention.png'
@@ -14,7 +14,7 @@ const data = [
     id: 6,
     image: IMG6,
     title: "Siby- Crime Mapping | React",
-    github: "https://github.com/bd6981",
+    github: "https://github.com/bd6981/SibyCrimeMapping",
     demo: "https://siby-crime-mapping.vercel.app/",
   },
   {
@@ -32,6 +32,13 @@ const data = [
     demo: "https://bd6981.github.io/Trivia-/",
   },
   {
+    id: 1,
+    image: IMG1,
+    title: "Pacman Game | React",
+    github: "https://github.com/bd6981/pacman",
+    demo: "https://pacman-gilt.vercel.app/",
+  },
+  {
     id: 3,
     image: IMG3,
     title: "Dog-App-Implementing third-party Api Fetch/Filter | React",
@@ -44,13 +51,6 @@ const data = [
     title: "World of Invention -third party Api | React",
     github: "https://github.com/bd6981/invention.git",
     demo: "https://invention-mu.vercel.app/Home",
-  },
-  {
-    id: 1,
-    image: IMG1,
-    title: "To-do list | React",
-    github: "https://github.com/bd6981/toDoReact.git",
-    demo: "https://to-do-react-chi.vercel.app",
   },
 ];
 
